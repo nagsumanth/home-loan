@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header .icon:hover{
+    color: black !important;
+}
+.hover:hover{
+    border-bottom:solid 1px  #f5511e;
+}
+.title p{
+    letter-spacing: 2px;
+}
+.title::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #f5511e;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+nav h1:hover{
+    color: #f5511e;
+}
+/*offer*/
+#banner .carousel-caption{
+    top: 20%;
+    left:10%;
+    width: 50%;
+    text-align: start;
+}
+#banner .carousel-caption h1{
+    text-shadow: 0 0 10px black;
+}
+#banner .carousel-caption button{
+    text-shadow: 0 0 10px black;
+}
+#offer .row i{
+    font-size: 30px;
+    color: #f5511e;
+}
+#offer .shadow:hover{
+    box-shadow: 0 0 10px rgb(73, 255, 6) !important;
+}
+/*fast*/
+#fast h4 i{
+    color: #f5511e;
+}
+/*news*/
+#news img{
+    height: 250px;
+    transition: ease all 3s;
+}
+#news img:hover{
+    transform: rotateY(360deg);
+}
+#news .card:hover{
+    box-shadow: 0 0 10px yellow;
+}
+/*footer*/
+.backgound{
+    background-color: black
+}
+footer .img-thumbnail{
+    height: 70px;
+}
+input{
+    padding: 10px 10px 10px 9px;
+    outline: none;
+    border: solid 1px #262626;
+   
+}
+input:hover{
+    background-color: white !important;
+    color: black !important;
+}
+button i{
+    font-size: 23px;
+   
+}
+button{
+    padding: 10px ;
+    margin: -5px !important;
+    border: none;
+    background-color: #f5511e;
+}
+button:hover i{
+    color: black !important;
+}
+.address h6{
+    color: #f5511e !important;
+}
+span{
+    color: #f5511e;
+}
